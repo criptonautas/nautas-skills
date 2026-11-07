@@ -9,7 +9,7 @@ Aplicar antes `identidad-visual` y, para el texto, `voz-del-foro`.
 
 ## 1. La herramienta
 
-Repo **[criptonautas-pdf](https://github.com/somos-criptonautas/criptonautas-pdf)**: texto en `.md`, diseño en `style.css`, un `Makefile`. Buscar primero una copia local; si no hay, clonarlo. No se arma una maqueta nueva ni un script suelto: se usa el repo.
+Repo **[criptonautas-pdf](https://github.com/criptonautas/criptonautas-pdf)**: texto en `.md`, diseño en `style.css`, un `Makefile`. Buscar primero una copia local; si no hay, clonarlo. No se arma una maqueta nueva ni un script suelto: se usa el repo.
 
 Requisitos: `pandoc` y `pip install -r requirements.txt`.
 

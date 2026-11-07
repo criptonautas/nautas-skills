@@ -5,7 +5,7 @@ description: Aplicar la identidad visual de Criptonautas al generar cualquier pi
 
 # Identidad visual
 
-El sistema vive en **[brand-kit](https://github.com/somos-criptonautas/brand-kit)** y se publica en [criptonautas.co/kit](https://criptonautas.co/kit). Esta skill no repite sus valores: dice de dónde se leen y qué reglas los acompañan.
+El sistema vive en **[brand-kit](https://github.com/criptonautas/brand-kit)** y se publica en [criptonautas.co/kit](https://criptonautas.co/kit). Esta skill no repite sus valores: dice de dónde se leen y qué reglas los acompañan.
 
 ## 1. Los valores se leen, no se copian
 

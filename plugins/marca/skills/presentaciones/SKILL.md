@@ -9,7 +9,7 @@ Aplicar antes `identidad-visual` y, para el texto, `voz-del-foro`.
 
 ## 1. La herramienta
 
-Repo **[criptonautas-slides](https://github.com/somos-criptonautas/criptonautas-slides)**: `build.py` arma cada carpeta de presentación en un `deck.html` con la tipografía embebida. Buscar primero una copia local; si no hay, clonarlo. Solo necesita Python 3.
+Repo **[criptonautas-slides](https://github.com/criptonautas/criptonautas-slides)**: `build.py` arma cada carpeta de presentación en un `deck.html` con la tipografía embebida. Buscar primero una copia local; si no hay, clonarlo. Solo necesita Python 3.
 
 ## 2. Una presentación nueva
 
@@ -20,7 +20,7 @@ Repo **[criptonautas-slides](https://github.com/somos-criptonautas/criptonautas-
 
 ## 3. Caras
 
-Antes de poner una foto en `img/`, tapar las caras con `cover_faces.py` de [criptonautas-pdf](https://github.com/somos-criptonautas/criptonautas-pdf): `python3 cover_faces.py photos img`. La detección solo sugiere: revisar cada `<photo>.check.jpg` y cada imagen de `img/`, y agregar a mano en `photos/<photo>.faces.json` las caras que falten. `photos/` no se sube ni se comparte.
+Antes de poner una foto en `img/`, tapar las caras con `cover_faces.py` de [criptonautas-pdf](https://github.com/criptonautas/criptonautas-pdf): `python3 cover_faces.py photos img`. La detección solo sugiere: revisar cada `<photo>.check.jpg` y cada imagen de `img/`, y agregar a mano en `photos/<photo>.faces.json` las caras que falten. `photos/` no se sube ni se comparte.
 
 ## 4. Nombres
 

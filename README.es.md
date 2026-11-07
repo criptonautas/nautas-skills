@@ -20,9 +20,9 @@ Y un segundo plugin, `marca`, que no necesita cuenta del foro ni conexión:
 
 | Skill | Para qué |
 |---|---|
-| `identidad-visual` | Generar cualquier pieza con nuestra identidad: de dónde se leen los colores y las tipografías del [brand kit](https://github.com/somos-criptonautas/brand-kit), qué reglas tienen el logo y las imágenes, y cómo se exportan los archivos. |
-| `pdf` | Escribir un PDF para descargar desde Markdown con [criptonautas-pdf](https://github.com/somos-criptonautas/criptonautas-pdf): maqueta compartida, sin metadatos y reproducible. |
-| `presentaciones` | Armar una presentación en HTML que funciona sin internet con [criptonautas-slides](https://github.com/somos-criptonautas/criptonautas-slides). |
+| `identidad-visual` | Generar cualquier pieza con nuestra identidad: de dónde se leen los colores y las tipografías del [brand kit](https://github.com/criptonautas/brand-kit), qué reglas tienen el logo y las imágenes, y cómo se exportan los archivos. |
+| `pdf` | Escribir un PDF para descargar desde Markdown con [criptonautas-pdf](https://github.com/criptonautas/criptonautas-pdf): maqueta compartida, sin metadatos y reproducible. |
+| `presentaciones` | Armar una presentación en HTML que funciona sin internet con [criptonautas-slides](https://github.com/criptonautas/criptonautas-slides). |
 
 La conexión usa el servidor MCP oficial de nuestro Discourse (`https://comunidad.criptonautas.co/mcp`). Cada persona entra con su propia cuenta por OAuth, desde un enlace: este repo no guarda claves ni accesos, todo se gestiona en el foro.
 
@@ -40,7 +40,7 @@ La primera vez que el agente usa el foro, abre un enlace para autorizar con nues
 Dentro de Claude Code:
 
 ```text
-/plugin marketplace add somos-criptonautas/nautas-skills
+/plugin marketplace add criptonautas/nautas-skills
 /plugin install comunidad@criptonautas
 /plugin install marca@criptonautas
 ```
@@ -55,7 +55,7 @@ Reiniciar Claude Code, escribir `/mcp`, elegir `comunidad` y autorizar en el enl
 ### opencode
 
 ```bash
-git clone https://github.com/somos-criptonautas/nautas-skills ~/nautas-skills
+git clone https://github.com/criptonautas/nautas-skills ~/nautas-skills
 ```
 
 ```bash
@@ -92,7 +92,7 @@ pi install npm:pi-mcp-adapter
 ```
 
 ```bash
-git clone https://github.com/somos-criptonautas/nautas-skills ~/nautas-skills
+git clone https://github.com/criptonautas/nautas-skills ~/nautas-skills
 ```
 
 Sumar en `~/.config/mcp/mcp.json`, con la ruta completa (reemplazar `USUARIO`). Si el archivo ya existe, agregar solo `claudePlugins`:
